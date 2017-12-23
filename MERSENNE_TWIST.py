@@ -15,6 +15,8 @@ random.gauss(5, 2)
 
 random.sample(range(10000000), 5)
 
+
+#System is constantly running the RN generation
 random.getstate()
 
 #Example of statistical bootstrapping using resampling with replacement to 
