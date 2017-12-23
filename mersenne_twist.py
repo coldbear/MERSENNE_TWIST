@@ -74,6 +74,6 @@ for i in range (1,n):
    new_seed=(a*seed+c)%m
    seed = new_seed
    y.append( new_seed)
-plot(x,y)
+plt.plot(x,y)
 plt.show()
 
