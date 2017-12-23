@@ -57,7 +57,7 @@ waits = [start - arrival for arrival, start in zip(arrivals, starts)]
 print(f'Mean wait: {mean(waits):.1f}.  Stdev wait: {stdev(waits):.1f}.')
 print(f'Median wait: {median(waits):.1f}.  Max wait: {max(waits):.1f}.')
 
-#Plotting random numbers
+#Plotting random numbers (path)
 import matplotlib.pyplot as plt
 import random
 x = []
@@ -75,5 +75,9 @@ for i in range (1,n):
    seed = new_seed
    y.append( new_seed)
 plt.plot(x,y)
+plt.show()
+
+#Scatterplot
+plt.scatter(x, y)
 plt.show()
 
