@@ -3,6 +3,8 @@ import random
 
 random.seed(1)
 
+#Basic functions
+
 random.random()
 
 random.randint(0, 10000)
@@ -17,6 +19,7 @@ random.getstate()
 
 #Example of statistical bootstrapping using resampling with replacement to 
 #estimate a confidence interval for the mean of a sample of size five
+
 from statistics import mean
 from random import choices
 data = 1, 2, 4, 4, 10 
